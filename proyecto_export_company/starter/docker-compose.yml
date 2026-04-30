@@ -1,0 +1,6 @@
+services:
+  export-company-api:
+    build: .
+    container_name: export-company-api
+    ports:
+      - "8000:8000"
