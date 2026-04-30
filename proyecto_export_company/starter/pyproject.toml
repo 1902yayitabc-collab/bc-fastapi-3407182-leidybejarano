@@ -1,0 +1,10 @@
+[project]
+name = "export-company-api"
+version = "1.0.0"
+description = "FastAPI project for export company management"
+requires-python = ">=3.12"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+]
